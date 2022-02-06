@@ -116,8 +116,6 @@ i {
     list-style: none;
     padding: 0;
     margin: 0;
-    position: absolute;
-    background-color: #f6f6f6;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -136,6 +134,8 @@ i {
     .header .links ul {
         display: none;
         flex-direction: column;
+        position: absolute;
+        background-color: #f6f6f6;
     }
 
     .header .links .icon {
